@@ -46,5 +46,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>GIDServerClientID</key>
+    	<string>48219495767-87d37dsi8gima3gpeo6j3i0tf3oq90n3.apps.googleusercontent.com</string>
+    	<key>GIDClientID</key>
+    	<string>48219495767-pk8m6cil54698aqbf7c1nkrpfnlnndse.apps.googleusercontent.com</string>
+    	<key>CFBundleURLTypes</key>
+    	<array>
+    		<dict>
+    			<key>CFBundleURLSchemes</key>
+    			<array>
+    				<string>com.googleusercontent.apps.48219495767-pk8m6cil54698aqbf7c1nkrpfnlnndse</string>
+    			</array>
+    		</dict>
+    	</array>
 </dict>
 </plist>
