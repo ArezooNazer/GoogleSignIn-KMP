@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'iosApp' do
+  use_frameworks!
+  platform :ios, '16.0'
+
+  pod 'composeApp', :path => '../composeApp'
+
+  pod("GoogleSignIn")
+
+end
