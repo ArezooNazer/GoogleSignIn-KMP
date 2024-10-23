@@ -33,6 +33,10 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+
+            implementation (libs.androidx.credentials)
+            implementation (libs.androidx.credentials.play.services.auth)
+            implementation (libs.googleid)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
